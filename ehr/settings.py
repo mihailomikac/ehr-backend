@@ -178,6 +178,13 @@ CORS_ALLOWED_ORIGINS = [
     "https://web-production-30b7.up.railway.app"
 ]
 
+# CSRF Settings for Railway
+CSRF_TRUSTED_ORIGINS = [
+    "https://web-production-30b7.up.railway.app",
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+]
+
 # Custom User Model
 AUTH_USER_MODEL = "users.User"
 
