@@ -1,0 +1,1 @@
+web: gunicorn ehr.wsgi:application --bind 0.0.0.0:$PORT 

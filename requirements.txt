@@ -1,0 +1,11 @@
+Django==4.2.7
+psycopg2-binary
+graphene-django==3.0.0
+django-graphql-jwt==0.3.4
+django-cors-headers==4.3.1
+python-decouple==3.8
+Pillow
+django-extensions==3.2.3
+django-filter==23.3
+gunicorn==21.2.0
+whitenoise==6.6.0 
