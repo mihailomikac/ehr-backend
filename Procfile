@@ -1,1 +1,1 @@
-web: gunicorn ehr.wsgi:application --bind 0.0.0.0:$PORT 
+web: python manage.py migrate && gunicorn ehr.wsgi:application --bind 0.0.0.0:$PORT 
